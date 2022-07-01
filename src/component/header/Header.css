@@ -1,0 +1,175 @@
+
+
+@font-face {
+    font-family: 'Auto Techno Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Auto Techno Regular'), url('auto-techno.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Auto Techno Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Auto Techno Italic'), url('auto-techno italic.woff') format('woff');
+}
+
+.ex{
+  
+    color: aliceblue;
+}
+
+
+
+.logo{
+    
+    font-family: 'Auto Techno Italic';
+    color: rgba(12, 11, 12, 0.644);
+    font-size: 200px;
+    -webkit-text-stroke: 1px rgb(48, 133, 182);
+    color: rgba(24, 24, 24);
+    text-shadow:
+       3px 3px 0 rgb(48, 133, 182),
+     -1px -1px 0 rgb(48, 133, 182),  
+      1px -1px 0 rgb(48, 133, 182),
+      -1px 1px 0 rgb(48, 133, 182),
+       1px 1px 0 rgb(48, 133, 182);
+
+}
+
+
+
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header__container{
+
+    height: 100%;
+    position: relative;
+}
+ .hello{
+    color: yellow;
+} 
+.job{
+    font-style: italic;
+    color: rgb(0, 162, 255);
+    animation: lightSpeedInRight  1s 1.7s backwards;
+}
+.name{
+    animation: flipInX 1s 1s backwards;
+   
+}
+
+
+
+
+
+/* CTA */
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.6rem;
+    justify-content: center;
+    animation: fadeIn 1s 2.6s backwards;
+}
+
+/* social icon */
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 0.1rem;
+    font-size: 1.3rem;
+}
+
+.social::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+}
+
+
+
+/* srcoll down */
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 3rem;
+   
+    font-weight: 300;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+.scroll__down:hover{
+    transform: rotate(90deg);
+}
+
+/** ******* Media Query for Medium Device ******/
+
+@media screen and (max-width:1024px) {
+    header{
+        height: 70vh;
+    }
+    .logo{
+        font-size: 200px;
+    }
+   
+  }
+ 
+  
+  /* ******* Media Query for Small Device ******/
+  
+  @media screen and (max-width:600px) {
+
+     header{
+        height: 100vh;
+        padding-top: 7rem;
+     }
+     .social,.scroll__down{
+        display: none;
+     }
+     .logo{
+        font-size:150px;
+     }
+    
+     
+  }
+  @media screen and (max-width:370px) {
+     header{
+       padding-top: 7rem;
+     }
+    .logo{
+        font-size: 600%;
+    }
+    .cta{
+        margin-top: 2rem;
+    }
+   
+ }
+ @media screen and (max-width:320px) {
+   
+    .logo{
+        font-size: 300%;
+        text-shadow:
+        1px 1px 0 rgb(48, 133, 182),
+      -1px -1px 0 rgb(48, 133, 182),  
+       1px -1px 0 rgb(48, 133, 182),
+       -1px 1px 0 rgb(48, 133, 182),
+        1px 1px 0 rgb(48, 133, 182);
+    }
+    
+}  
+
+
+
+  
