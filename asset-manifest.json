@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.37f1f4d7.css",
+    "main.js": "/portfolio/static/js/main.9b283a17.js",
+    "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/roboworld.png": "/portfolio/static/media/roboworld.1f6b0f722b11b995fb01.png",
+    "static/media/joke_teller.png": "/portfolio/static/media/joke_teller.d8f7b416d42021bff27e.png",
+    "static/media/auto-techno italic.woff": "/portfolio/static/media/auto-techno italic.b8ceaac70ace03df658f.woff",
+    "static/media/auto-techno.woff": "/portfolio/static/media/auto-techno.399575528c0e93212321.woff",
+    "index.html": "/portfolio/index.html",
+    "main.37f1f4d7.css.map": "/portfolio/static/css/main.37f1f4d7.css.map",
+    "main.9b283a17.js.map": "/portfolio/static/js/main.9b283a17.js.map",
+    "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37f1f4d7.css",
+    "static/js/main.9b283a17.js"
+  ]
+}
