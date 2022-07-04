@@ -2,7 +2,7 @@ import React from 'react'
 import './Project.css';
 import IMG1 from './images/joke_teller.png';
 import IMG2 from './images/roboworld.png';
-
+import IMG0 from './images/apod.png';
 import { Pagination} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -28,6 +28,16 @@ const Portfolio = () => {
       pagination={{ clickable: true }}
       
       >
+         <SwiperSlide className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG0} alt="0" />
+          </div>
+          <h3>NASA APOD</h3>
+          <div className="portfolio__item-cta">
+           <a href="https://github.com/ankitsp-762/NASA-APOD" className='btn' >Source Code</a>
+           <a href="https://ankitsp-762.github.io/NASA-APOD/" className='btn btn-primary' >Live Demo</a>
+          </div>
+        </SwiperSlide>
         <SwiperSlide className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="1" />

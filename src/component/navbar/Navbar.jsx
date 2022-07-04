@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css';
 import {SiHomeassistant} from 'react-icons/si';
-import {AiOutlineUser} from 'react-icons/ai';
+
 import {HiCode} from 'react-icons/hi';
 import {FaLaptop} from 'react-icons/fa';
 import {IoMdContact} from 'react-icons/io';
@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <a href="#" onClick={()=>setActiveNav('#')} className={activeNav === '#' ? 'active' : '' }><SiHomeassistant /></a>
+      <a href="#header" onClick={()=>setActiveNav('#')} className={activeNav === '#' ? 'active' : '' }><SiHomeassistant /></a>
     
       <a href="#experience" onClick={()=>setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : '' }><HiCode /></a>
       <a href="#portfolio" onClick={()=>setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : '' }><FaLaptop /></a>
