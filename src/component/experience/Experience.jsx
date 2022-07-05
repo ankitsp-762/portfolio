@@ -11,7 +11,7 @@ const Experience = () => {
   return (
     <section id="experience">
       <h5>The Skills I Have</h5>
-      <h2>My Expereience</h2>
+      <h2>My Skills And Expertis</h2>
       <div className="container experience__container">
         <div className="experience__content">
           <article className="expeience__detail">
